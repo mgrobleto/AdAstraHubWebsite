@@ -29,11 +29,11 @@ li {
     font-weight:500;
 }
 
-a {
+.sidebar-links a {
     text-decoration: none !important;
     color: var(--green-bright) !important;
 }
 
-a:hover {
+.sidebar-links a:hover {
     color: var(--lightest-slate) !important;
 }

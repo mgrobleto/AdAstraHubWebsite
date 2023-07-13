@@ -9,7 +9,7 @@ import StarsBackground from './components/StarsBackground';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App bg-center bg-cover w-full h-screen'>
       <div className='w-full h-screen backdrop-blur-md'>
         <StarsBackground />
         <SidebarNav />

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Home = () => {
   return (
-    <>
+    <div>
       <div className='w-full h-full flex flex-col justify-start'>
         <div className='px-40 pt-80'>
           <motion.div
@@ -23,12 +23,12 @@ const Home = () => {
                 />
             </span>
             <div className='text-section py-5'>
-              <p className='text-[#64ffda] text-3xl w-1/2 text-left'>Tu espacio para conocer de astronomía</p>
+              <p className='text-[#f287b1] text-3xl w-1/2 text-left'>Tu espacio para conocer de astronomía</p>
             </div>
           </motion.div>
         </div>
       </div>
-    </>
+    </div>
     
   )
 }

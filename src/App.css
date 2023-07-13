@@ -26,10 +26,10 @@ html {
 
 .App {
   background-image: url(/public/images/adastrahubBg.png);
-  background-position: center;
+  /* background-position: center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 100vh; */
   /*text-align: center;*/
 }
 
@@ -62,9 +62,9 @@ html {
   color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
