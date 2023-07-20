@@ -15,7 +15,7 @@ function App() {
         <StarsBackground />
         <SidebarNav />
         <Routes>
-          <Route  exact path='/' element={<Home />}></Route>
+          <Route  exact path='/AdAstraHubWebsite' element={<Home />}></Route>
           <Route path='/apod' element={<APOD />}></Route>
           <Route path='/posts' element={<Posts />}></Route>
           <Route path='/about' element={<About />}></Route>
