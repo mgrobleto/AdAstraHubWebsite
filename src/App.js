@@ -9,6 +9,7 @@ import './App.css';
 import StarsBackground from './components/StarsBackground';
 
 function App() {
+
   return (
     <div className='App bg-hero bg-center bg-cover w-full h-auto md:min-h-screen sm:min-h-screen max-sm:min-h-screen lg:min-h-screen tracking-wide'>
       <div className='w-full h-auto md:min-h-screen sm:min-h-screen max-sm:min-h-screen lg:min-h-screen backdrop-blur-md'>
