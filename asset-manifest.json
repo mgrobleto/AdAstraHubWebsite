@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AdAstraHubWebsite-APODview/static/css/main.c20b50ef.css",
+    "main.js": "/AdAstraHubWebsite-APODview/static/js/main.759f9969.js",
+    "static/js/787.6496f169.chunk.js": "/AdAstraHubWebsite-APODview/static/js/787.6496f169.chunk.js",
+    "static/media/Galaxies.png": "/AdAstraHubWebsite-APODview/static/media/Galaxies.929c953e806eeefa6165.png",
+    "static/media/blackHoles.png": "/AdAstraHubWebsite-APODview/static/media/blackHoles.9c0e05300850b2e29344.png",
+    "static/media/NTR-Regular.ttf": "/AdAstraHubWebsite-APODview/static/media/NTR-Regular.325a44bd3c015f909958.ttf",
+    "static/media/Sky.png": "/AdAstraHubWebsite-APODview/static/media/Sky.fecf258b46088d3bc3d2.png",
+    "static/media/adastrahubBg.png": "/AdAstraHubWebsite-APODview/static/media/adastrahubBg.03dc5dee2ea5fb31c712.png",
+    "static/media/Courier-Prime.ttf": "/AdAstraHubWebsite-APODview/static/media/Courier-Prime.96e7b592076d71a29dd8.ttf",
+    "index.html": "/AdAstraHubWebsite-APODview/index.html",
+    "main.c20b50ef.css.map": "/AdAstraHubWebsite-APODview/static/css/main.c20b50ef.css.map",
+    "main.759f9969.js.map": "/AdAstraHubWebsite-APODview/static/js/main.759f9969.js.map",
+    "787.6496f169.chunk.js.map": "/AdAstraHubWebsite-APODview/static/js/787.6496f169.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c20b50ef.css",
+    "static/js/main.759f9969.js"
+  ]
+}
