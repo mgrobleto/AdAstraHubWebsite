@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
+
+@font-face {
+    font-family: "NTR";
+    font-weight: 200;
+    font-display: fallback;
+    src: local("NTR"), url('/public/assets/fonts/NTR-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Courier-Prime";
+    font-weight: 200;
+    font-display: fallback;
+    src: local("Courier-Prime"), url('/public/assets/fonts/Courier-Prime.ttf') format("truetype");
+}
+
 @tailwind utilities;

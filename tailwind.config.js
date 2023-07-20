@@ -7,9 +7,12 @@ module.exports = {
         'main-color': "#1f123a",
       },
       backgroundImage: {
-        'hero': "url('/public/images/adastrahubBg.png')",
-        'example': "url('/public/images/edge_background.jpg')",
+        'hero': "url('/public/assets/images/adastrahubBg.png')",
       },
+      fontFamily: {
+        NTR: ["NTR","sans-serif"],
+        CourierPrime: ["Courier-Prime","sans"],
+      }
     },
   },
   plugins: [

@@ -37,18 +37,22 @@ const SidebarNav = () => {
        title: '/ Inicio'
       },
       {
+        href: '/posts',
+        title: '/ Info'
+      },
+      {
        href: '/apod',
        title: '/ APOD'
       },
       {
        href: '/about',
-       title: '/ About'
+       title: '/ Acerca de'
       }
     ];
 
   return (
    <AnimatePresence>
-      <div className='sidebar-nav'>
+      <div className='sidebar-nav bottom-3'>
           <div className='sidebar-links'>
             <motion.div
               variants={pageVariants}

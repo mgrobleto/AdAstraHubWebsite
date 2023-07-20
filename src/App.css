@@ -1,10 +1,3 @@
-@font-face {
-  font-family: "NTR";
-  font-weight: 200;
-  font-display: fallback;
-  src: url('/public/fonts/NTR-Regular.ttf') format("truetype");
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -24,53 +17,53 @@ html {
   visibility: visible;
 }
 
-.App {
-  background-image: url(/public/images/adastrahubBg.png);
-  /* background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 100vh; */
-  /*text-align: center;*/
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-#content {
-  /* padding: 80px 200px; */
-  width: 100vw;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.MuiInputBase-input-MuiOutlinedInput-input {
   color: white;
 }
 
-/* .App-link {
-  color: #61dafb;
-} */
+.MuiFormHelperText-root {
+  color: whitesmoke !important;
+  font-size: 15px !important;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MuiInputBase-root.MuiOutlinedInput-root {
+  color: white;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgba(242, 236, 236, 0.43) !important;
+  border-radius: 20rem !important;
+  max-width: 500px;
+}
+
+.MuiButtonBase-root.MuiPickersDay-root.Mui-selected {
+  background-color: #f287b1;
+}
+
+.MuiButtonBase-root.MuiPickersDay-root.Mui-selected:hover {
+  background-color: #f287b1;
+}
+
+.MuiButtonBase-root.MuiPickersDay-root:hover {
+  background-color: #e2e2e2;
+}
+
+.MuiButtonBase-root.MuiPickersDay-root:focus.Mui-selected {
+  background-color: #f287b1;
+}
+
+.MuiButtonBase-root.MuiButton-root {
+  color: #f287b1;
+}
+
+.MuiPickersYear-yearButton.Mui-selected {
+  background-color: #f287b1 !important;
+}
+
+.MuiPickersYear-yearButton.Mui-selected:focus {
+  background-color: #f287b1 !important;
+}
+
+.MuiPickersYear-yearButton.Mui-selected:hover {
+  background-color: #f287b1 !important;
 }
