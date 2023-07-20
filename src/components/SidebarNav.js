@@ -33,7 +33,7 @@ const SidebarNav = () => {
 
     const links = [
       {
-       href: '/AdAstraHubWebsite',
+       href: '/',
        title: '/ Inicio'
       },
       {

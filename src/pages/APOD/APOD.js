@@ -17,6 +17,7 @@ import Loader from '../../components/Loader';
 const APOD = () => {
 
   const defaultValue = dayjs();
+  const minDate = dayjs("1995-06-16");
   const [dateValue, setDateValue] = useState(defaultValue);
   const selectedDate = dayjs(dateValue).format('YYYY-MM-DD');
 
@@ -76,7 +77,7 @@ const APOD = () => {
     <LocalizationProvider dateAdapter={AdapterDayjs}>
       <section className='image-container apod-image w-full h-auto md:min-h-screen sm:min-h-screen max-sm:min-h-screen lg:min-h-screen bg-center bg-cover' style={{backgroundImage: `url(${data.url})`}}>
         <div className='apod-header flex flex-col justify-between items-center sm:flex-row md:flex-col xl:flex-row xl:py-10'>
-          <div className='header flex items-start mt-4 ml-40 p-10'>
+          <div className='header flex items-start mt-4 xl:ml-40 p-10'>
               <span className='flex-1 text-white text-2xl w-1/2 tracking-widest text-center sm:text-4xl xl:text-4xl' style={{
                   textShadow: `2px 4px 3px rgba(0,0,0,0.3)`}}>
                   Foto Astronómica del Día
@@ -86,6 +87,7 @@ const APOD = () => {
           <div className='aside-header flex flex-col items-center mx-10 sm:flex-row md:flex-col xl:flex-row'>
             <MobileDatePicker 
             maxDate={defaultValue}
+            minDate={minDate}
             formatDensity="spacious"
             format='YYYY/MM/DD'
             defaultValue={dayjs()}
