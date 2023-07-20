@@ -26,11 +26,8 @@ This is a refreshing take on NASA's Astronomy Picture of the Day website that ve
 
 ## How to Use
 
-![info](https://github.com/mgrobleto/AdAstraHubWebsite/assets/65383367/dd88c484-22d1-4044-a6e5-128dd7985695)
-
 ### /Info option to check some basic information about astronomy/science topics.
-
-![apod](https://github.com/mgrobleto/AdAstraHubWebsite/assets/65383367/db6cd36d-d9f2-4372-a2b0-6f38980d5127)
+![info](https://github.com/mgrobleto/AdAstraHubWebsite/assets/65383367/dd88c484-22d1-4044-a6e5-128dd7985695)
 
 ### /APOD option
 
@@ -38,6 +35,8 @@ This is a refreshing take on NASA's Astronomy Picture of the Day website that ve
 * HDR Image option to see the full image in high quality (you can algo download it if you want).
 * Pick any date you would like to see APOD's image/video.
 * Firts APOD image was realeased in **1995-06-16**. ¿Amazing, right?
+
+![apod](https://github.com/mgrobleto/AdAstraHubWebsite/assets/65383367/db6cd36d-d9f2-4372-a2b0-6f38980d5127)
 
 ## Tech
 
