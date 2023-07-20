@@ -47,6 +47,7 @@ This is a refreshing take on NASA's Astronomy Picture of the Day website that ve
 * Days.js
 * Framer Motion
 * MUI Core
+* Particles.js
 
 ## Main Image
 
