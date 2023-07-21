@@ -18,7 +18,6 @@ const apodApi = axios.create({
 export const getApod = async () => {
     const resp = await apodApi.get();
     console.log(resp.data)
-    //console.log(resp.data)
     return resp.data;
 }
 
@@ -30,7 +29,6 @@ export const getApodByDate = async (apodDate) => {
             concept_tags : "True"
         }}
     )
-    console.log(resp.data)
     return resp.data;
 }
 
