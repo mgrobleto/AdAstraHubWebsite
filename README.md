@@ -1,5 +1,6 @@
 <p align="center">
   The first iteration of <a href="https://mgrobleto.github.io/AdAstraHubWebsite/" target="_blank">Ad Astra Hub Website</a> built with React.js.
+  Powered by <a href="https://apod.nasa.gov/apod/astropix.html" target="_blank">Original NASA APOD Website</a>.
 </p>
 
 <img width="1306" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://github.com/mgrobleto/AdAstraHubWebsite/assets/65383367/48e2ad58-2d11-49fb-811e-1ae26bf1684a">
