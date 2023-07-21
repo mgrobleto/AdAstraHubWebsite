@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AdAstraHubWebsite/static/css/main.7b4d9306.css",
-    "main.js": "/AdAstraHubWebsite/static/js/main.98766c61.js",
+    "main.css": "/AdAstraHubWebsite/static/css/main.5f4fcfc6.css",
+    "main.js": "/AdAstraHubWebsite/static/js/main.abdcddb3.js",
     "static/js/787.6496f169.chunk.js": "/AdAstraHubWebsite/static/js/787.6496f169.chunk.js",
     "static/media/Galaxies.png": "/AdAstraHubWebsite/static/media/Galaxies.929c953e806eeefa6165.png",
     "static/media/blackHoles.png": "/AdAstraHubWebsite/static/media/blackHoles.9c0e05300850b2e29344.png",
@@ -10,12 +10,12 @@
     "static/media/adastrahubBg.png": "/AdAstraHubWebsite/static/media/adastrahubBg.03dc5dee2ea5fb31c712.png",
     "static/media/Courier-Prime.ttf": "/AdAstraHubWebsite/static/media/Courier-Prime.96e7b592076d71a29dd8.ttf",
     "index.html": "/AdAstraHubWebsite/index.html",
-    "main.7b4d9306.css.map": "/AdAstraHubWebsite/static/css/main.7b4d9306.css.map",
-    "main.98766c61.js.map": "/AdAstraHubWebsite/static/js/main.98766c61.js.map",
+    "main.5f4fcfc6.css.map": "/AdAstraHubWebsite/static/css/main.5f4fcfc6.css.map",
+    "main.abdcddb3.js.map": "/AdAstraHubWebsite/static/js/main.abdcddb3.js.map",
     "787.6496f169.chunk.js.map": "/AdAstraHubWebsite/static/js/787.6496f169.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b4d9306.css",
-    "static/js/main.98766c61.js"
+    "static/css/main.5f4fcfc6.css",
+    "static/js/main.abdcddb3.js"
   ]
 }
