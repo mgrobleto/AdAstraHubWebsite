@@ -35,7 +35,7 @@ This is a refreshing take on NASA's Astronomy Picture of the Day website that ve
 * At the background we will be able to see the current Astronomical Picture of the Day along with a brief explanation of the image.
 * HDR Image option to see the full image in high quality (you can algo download it if you want).
 * Pick any date you would like to see APOD's image/video.
-* Firts APOD image was realeased in **1995-06-16**. ¿Amazing, right?
+* First APOD image was realeased in **1995-06-16**. ¿Amazing, right?
 
 ![apod](https://github.com/mgrobleto/AdAstraHubWebsite/assets/65383367/db6cd36d-d9f2-4372-a2b0-6f38980d5127)
 
