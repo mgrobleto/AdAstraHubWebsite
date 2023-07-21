@@ -13,17 +13,17 @@ const Home = () => {
           exit={{opacity: 1}}
           transition={{ duration: 0.75, ease: "easeOut" }}
           >
-            <span className='text-white text-3xl sm:text-6xl lg:text-6xl w-1/2 text-left'>
+            <span className='text-white text-3xl text-center sm:text-6xl lg:text-6xl  w-1/2 lg:text-left'>
                 <Typewriter
                   options={{
-                    strings: ['Bienvenidos a Ad Astra Hub'],
+                    strings: ['Welcome to Ad Astra Hub'],
                     autoStart: true,
                     loop: true,
                   }}
                 />
             </span>
             <div className='text-section py-5'>
-              <p className='text-[#f287b1] text-2xl sm:text-3xl lg:text-3xl w-full lg:w-1/2 text-left'>Tu espacio para conocer de astronomía</p>
+              <p className='animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black" text-2xl text-center sm:text-3xl lg:text-3xl w-full lg:w-1/2 lg:text-left'>Explore the cosmos with us</p>
             </div>
           </motion.div>
         </div>

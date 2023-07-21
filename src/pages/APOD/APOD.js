@@ -44,13 +44,13 @@ const APOD = () => {
     <div className='apod-container'>
        <LocalizationProvider dateAdapter={AdapterDayjs}>
         {data.media_type === "image" ? (
-        <section className='apod-image w-full h-auto md:min-h-screen sm:min-h-screen max-sm:min-h-screen lg:min-h-screen bg-center bg-cover' style={{backgroundImage: `url(${data.url})`}}>
+        <section className='apod-image w-full h-full pb-10 md:min-h-screen sm:min-h-screen max-sm:min-h-screen lg:min-h-screen bg-center bg-cover' style={{backgroundImage: `url(${data.url})`}}>
           <div className='apod-header flex flex-col justify-between items-center sm:flex-row md:flex-col xl:flex-row xl:py-10'>
             <div className='header flex items-start mt-4 xl:ml-40 p-10'>
               <span className='flex-1 text-white text-2xl w-1/2 tracking-widest text-center sm:text-4xl xl:text-4xl' style={{
                 textShadow: `2px 4px 3px rgba(0,0,0,0.3)`}}>
-                Foto Astronómica del Día
-                {/* Astronomy Picture of the Day */}
+                {/* Foto Astronómica del Día */}
+                Astronomy Picture of the Day
               </span>
             </div>
             <div className='aside-header flex flex-col items-center mx-10 sm:flex-row md:flex-col xl:flex-row'>
@@ -67,14 +67,14 @@ const APOD = () => {
               </div>
             </div>
           </div>
-          <div className='card flex flex-col items-start w-auto mx-16 lg:mx-32 xl:max-w-5xl xl:ml-40'>
+          <div className='card flex flex-col items-start w-auto mx-16 pb-5 lg:mx-32 xl:max-w-5xl xl:ml-40'>
             <motion.div
                 initial={{y: "100%"}}
                 animate={{y: "0%"}}
                 exit={{opacity: 1}}
                 transition={{ duration: 1.5, ease: "easeOut" }}
               >
-                <div className='apod-info h-full w-auto lg:w-full p-10 mb-10 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 shadow-2xl'>
+                <div className='apod-info h-full w-auto lg:w-full p-10 mb-5 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 shadow-2xl'>
                   <span className='apod-title flex-1 text-white text-2xl w-1/2 tracking-widest text-center lg:text-5xl lg:text-left' style={{textShadow: `2px 4px 3px rgba(0,0,0,0.3)`}}>{data.title}</span>
                   <div className='flex items-start mt-4'>
                     <span className='image-explanation flex-1 text-white text-xs lg:text-lg xl:text-lg w-1/2 tracking-widest text-left'>{data.explanation}</span>
@@ -84,7 +84,8 @@ const APOD = () => {
                       Descargar
                     </button> */}
                     <a id="hdr-img" href={hdrUrl} target="" rel="external" title="Click here to see a higher quality image" className='my-5 rounded-full focus:outline-none text-white bg-purple-700 hover:bg-purple-800 font-medium text-sm px-5 py-2.5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900'>
-                      Ver Imagen HDR
+                      {/* Ver Imagen HDR */}
+                      HDR Image
                     </a>
                   </div>
                 </div>
@@ -99,8 +100,8 @@ const APOD = () => {
             <div className='header flex items-start mt-4 xl:ml-40 p-10'>
               <span className='flex-1 text-white text-2xl w-1/2 tracking-widest text-center sm:text-4xl xl:text-4xl' style={{
                 textShadow: `2px 4px 3px rgba(0,0,0,0.3)`}}>
-                Video Astronómico del Día
-                {/* Astronomy Video of the Day */}
+                {/* Video Astronómico del Día */}
+                Astronomy Video of the Day
               </span>
             </div>
             <div className='aside-header flex flex-col items-center mx-10 sm:flex-row md:flex-col xl:flex-row'>

@@ -34,19 +34,19 @@ const SidebarNav = () => {
     const links = [
       {
        href: '/',
-       title: '/ Inicio'
-      },
-      {
-        href: '/posts',
-        title: '/ Info'
+       title: '/ Home'
       },
       {
        href: '/apod',
        title: '/ APOD'
       },
       {
+        href: '/posts',
+        title: '/ Info'
+      },
+      {
        href: '/about',
-       title: '/ Acerca de'
+       title: '/ About'
       }
     ];
 

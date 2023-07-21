@@ -31,7 +31,7 @@ const MyDatePicker = ({defaultValue, value, onAccept}) => {
         defaultValue={dayjs()}
         value={value}
         onAccept={onAccept}
-        slotProps={{ textField: { helperText: "Seleccione una fecha :)" } }}
+        slotProps={{ textField: { helperText: "Select a date :)" } }}
         slots={{
             toolbar: CustomToolbar,
         }}
